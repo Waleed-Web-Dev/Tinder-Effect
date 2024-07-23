@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinder Effect</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <div class="w-full h-screen bg-black font-['helvetica_now_display']">
+        <div class="imagecontainer w-full h-screen relative">
+            <div class="maincard z-[3] w-full h-screen absolute bg-orange-600"><img class="w-full h-full" src="https://images.unsplash.com/photo-1547701787-1ad8f348080a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBvdHJhaXR8ZW58MHwxfDB8fHww" alt=""></div>
+            <div class="incomingcard z-[2] w-full h-screen absolute bg-green-600"></div>
+        </div>
+        <div class="absolute top-0 left-0 z-[4] w-full h-screen px-5 py-6 flex flex-col justify-between">
+            <div class="navbar flex justify-between items-center text-white">
+                <div class="prflimg w-[3rem] h-[3rem] overflow-hidden bg-red-600 rounded-full">
+                    <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1647502829380-7aefd124c364?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHBvdHJhaXR8ZW58MHwxfDB8fHww" alt="">
+                </div>
+                <h3 class=" text-xl font-regular tracking-tighter">They liked You</h3>
+                <div class="chaticon relative flex items-center justify-center rounded-full w-[3rem] h-[3rem] bg-white/20">
+                    <i class=" opacity-80 ri-chat-3-fill"></i>
+                    <div class="badge flex items-center justify-center rounded-full absolute h-5 w-5 bg-red-600 top-0 right-0 -translate-y-[5px] translate-x-[5px]">
+                         <h5 class="text-[13px] font-semibold">5</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="details w-full">
+                 <div class="flex">
+                   <i class="w-[1.6rem] h-[1.6rem] flex  items-center justify-center font-semibold rounded-full bg-white ri-corner-left-up-line"></i>
+                 </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
